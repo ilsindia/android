@@ -1,12 +1,11 @@
+apply plugin: 'android'
 
 dependencies {
-    classpath 'com.android.tools.build:gradle:1.0.+'
     compile fileTree(dir: 'libs', include: '*.jar')
     compile project(':google-play-services_lib')
+    classpath 'com.android.tools.build:gradle:1.0.+'
     
 }
-
-apply plugin: 'android'
 
 android {
     compileSdkVersion 19
