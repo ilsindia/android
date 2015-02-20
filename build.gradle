@@ -6,7 +6,6 @@ dependencies {
     classpath 'com.android.tools.build:gradle:1.0.+'
 }
 
-
 android {
     compileSdkVersion 19
     buildToolsVersion "19.0.0"
