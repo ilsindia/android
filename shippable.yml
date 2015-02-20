@@ -9,9 +9,6 @@ install:
 before_script:
     - mkdir -p shippable/testresults
 
-script:
-    - ./gradlew clean assemble
-    - ./gradlew check
 
 notifications:
     email:

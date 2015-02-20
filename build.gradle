@@ -3,6 +3,12 @@ buildscript {
         mavenCentral()
     }
  }
+dependencies {
+classpath 'com.android.tools.build:gradle:1.0.1'
+ compile files (
+	'libs/gradle-wrapper.jar',
+	'libs/google-play-services.jar')
+}
 
 apply plugin: 'com.android.application'
 
@@ -33,10 +39,4 @@ android {
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
     }
-}
-dependencies {
-classpath 'com.android.tools.build:gradle:1.0.1'
- compile files (
-	'libs/gradle-wrapper.jar',
-	'libs/google-play-services.jar')
 }
