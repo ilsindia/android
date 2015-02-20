@@ -35,6 +35,7 @@ android {
     }
 }
 dependencies {
+classpath 'com.android.tools.build:gradle:1.0.1'
  compile files (
 	'libs/gradle-wrapper.jar',
 	'libs/google-play-services.jar')

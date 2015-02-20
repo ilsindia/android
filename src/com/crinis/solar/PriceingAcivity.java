@@ -31,8 +31,8 @@ public class PriceingAcivity extends Activity {
 		setContentView(R.layout.pricingactivity);
 		
 		getView();
-		ac_energy.setText(getIntent().getStringExtra("ac_annual"));
-		s_radiation.setText(getIntent().getStringExtra("solrad_annual"));
+		ac_energy.setText(String.format("%.2f", getIntent().getStringExtra("ac_annual")));
+		s_radiation.setText(String.valueOf((int) (Float.parseFloat(getIntent().getStringExtra("solrad_annual")))) );
 	}
 
 	private void getView() {
