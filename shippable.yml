@@ -3,11 +3,13 @@ language: java
 jdk:
     - oraclejdk7
 
+install:
+    - chmod +x gradlew
+
 before_script:
     - mkdir -p shippable/testresults
 
 script:
-    - chmod +x gradlew
     - ./gradlew clean assemble
     - ./gradlew check
 
