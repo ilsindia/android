@@ -1,4 +1,5 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
@@ -33,3 +34,4 @@ android {
         release.setRoot('build-types/release')
     }
 }
+
