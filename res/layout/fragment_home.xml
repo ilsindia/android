@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/background_screen" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Crinis Solar App is a unique app to conduct real-time analysis of Solar irradiation and associated power generation from Solar PhotoVoltaic (PV) panels." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Based on the location you choose, we use historical weather data for India to model average Direct Normal Irradiance (DNI). This DNI data, combined with other project parameters, are run through an algorithm to predict the number of units of power (KW-hr) that can be produced for each of the 12 months.
+" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="This information can then be used to analyze the cost-benefit of setting up a Solar project in your location.
+" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Please Contact the Crinis Team in case of any comments, questions or suggestions." />
+
+
+</LinearLayout>

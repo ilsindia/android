@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appname">Crinis</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello World!</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Solar Analysis</item>
+        <item>Crinis Site</item>
+        <item>Comments</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/homeicon</item>
+        <item>@drawable/analysis</item>
+        <item>@drawable/website</item>
+        <item>@drawable/comment</item>
+    </array>
+
+    <string-array name="type_array">
+        <item>Fixed (roof mount)</item>
+        <item>Fixed (open rack)</item>
+        <item>1-Axis Tracking</item>
+        <item>1-Axis Backtracking</item>
+        <item>2-Axis Tracking</item>
+    </string-array>
+    <string-array name="module_array">
+        <item>Standard</item>
+        <item>Premium</item>
+        <item>Thin film</item>
+    </string-array>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+<!--     <item -->
+<!--         android:id="@+id/overflow" -->
+<!--         android:icon="@drawable/ic_pages" -->
+<!--         android:showAsAction="always" -->
+<!--         android:title=""> -->
+<!--         <menu> -->
+            <item
+                android:id="@+id/action_production"
+                android:icon="@drawable/pricingtoolicon"
+                android:showAsAction="always"
+                android:title="Solar production"/>
+            <item
+                android:id="@+id/action_graph"
+                android:icon="@drawable/productiongraphicon"
+                android:showAsAction="always"
+                android:title="Solar Graph"/>
+<!--         </menu> -->
+<!--     </item> -->
+
+</menu>
