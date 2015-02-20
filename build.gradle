@@ -4,7 +4,10 @@ buildscript {
     }
  }
 
+apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
+apply plugin: 'robolectric'
+
 
 android {
     compileSdkVersion 19
